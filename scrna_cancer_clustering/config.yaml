@@ -1,0 +1,32 @@
+data:
+  input_path: null  # null = use demo dataset
+  format: auto      # auto, h5ad, csv, mtx
+
+preprocessing:
+  min_genes: 200
+  max_genes: 5000
+  max_pct_mito: 20
+  n_top_genes: 2000
+  regress_cell_cycle: false
+
+dimensionality_reduction:
+  n_pcs: 50
+  n_pcs_use: 30
+  umap_n_neighbors: 15
+  umap_min_dist: 0.1
+
+clustering:
+  methods: [leiden, kmeans]  # leiden, louvain, kmeans, hierarchical
+  leiden_resolutions: [0.3, 0.5, 0.8, 1.0, 1.5]
+  louvain_resolutions: [0.3, 0.5, 0.8, 1.0, 1.5]
+  kmeans_k_range: [2, 10]
+  hierarchical_k_range: [2, 10]
+
+markers:
+  n_top_genes: 10
+  method: wilcoxon
+
+output:
+  figures_dir: outputs/figures
+  results_dir: outputs/results
+  save_h5ad: true
