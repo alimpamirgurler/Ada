@@ -1,5 +1,6 @@
 # The Project was named after my dog, Ada
-![Ada the dog](C:\Users\alimp\Downloads\Ada in the Snow_Square.png)
+<img width="1080" height="1080" alt="Ada in the Snow_Square" src="https://github.com/user-attachments/assets/7bcf8de1-b57f-4f62-98d3-6d35723e9e98" />
+
 
 # scRNA-seq Cancer Subtype Clustering Pipeline
 
