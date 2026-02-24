@@ -1,3 +1,6 @@
+# The Project was named after my dog, Ada
+![Ada the dog](C:\Users\alimp\Downloads\Ada in the Snow_Square.png)
+
 # scRNA-seq Cancer Subtype Clustering Pipeline
 
 An end-to-end unsupervised clustering pipeline for single-cell RNA sequencing (scRNA-seq) data, designed for cancer subtype discovery. The pipeline integrates preprocessing, dimensionality reduction, multiple clustering algorithms, quantitative evaluation, marker gene identification, and comprehensive visualization.
